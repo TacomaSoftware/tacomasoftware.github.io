@@ -292,6 +292,26 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+header .intro-text .intro-box {
+    background-color: #33333399;
+    padding-bottom: 50px;
+    padding-top: 50px;    
+}
+
+header .intro-text strong {
+    color: #fed136;
+}
+
+header .intro-text .intro-detail {
+    /* margin-bottom: 25px; */
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    margin-bottom: 25px;    
+    /* background-color: #33333350; */
+    /* font-style: italic; */
+    /* line-height: 22px; */
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
@@ -875,4 +895,6 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
-
+.underline {
+    text-decoration: underline;
+}
