@@ -898,3 +898,14 @@ body {
 .underline {
     text-decoration: underline;
 }
+
+.item {
+    /* background: #333; */
+    text-align: center;
+    height: 300px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color:black;
+}
